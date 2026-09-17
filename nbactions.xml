@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+  <action>
+    <actionName>run</actionName>
+    <displayName>Run I-Wish Client</displayName>
+    <goals>
+      <goal>javafx:run</goal>
+    </goals>
+  </action>
+  <action>
+    <actionName>debug</actionName>
+    <displayName>Debug I-Wish Client</displayName>
+    <goals>
+      <goal>javafx:run</goal>
+    </goals>
+  </action>
+</actions>
