@@ -1,0 +1,16 @@
+.root { -fx-font-family: "Avenir Next", "Segoe UI", sans-serif; -fx-background-color: linear-gradient(to bottom right, #f7f7ff, #edf8f7); }
+.hero { -fx-background-color: linear-gradient(to bottom right, #37286e, #6c4bc4 52%, #ea6886); -fx-background-radius: 24; -fx-effect: dropshadow(gaussian, rgba(41,28,87,.25), 18, .12, 0, 8); }
+.card { -fx-background-color: rgba(255,255,255,.94); -fx-background-radius: 18; -fx-effect: dropshadow(gaussian, rgba(45,38,75,.11), 13, .08, 0, 5); }
+.nav { -fx-background-color: #261c4f; -fx-padding: 22 14; }
+.nav .button { -fx-background-color: transparent; -fx-text-fill: #ded9f6; -fx-alignment: CENTER_LEFT; -fx-max-width: Infinity; -fx-padding: 11 15; -fx-font-size: 13px; -fx-background-radius: 9; }
+.nav .button:hover, .nav .button:focused { -fx-background-color: #5c478f; -fx-text-fill: white; }
+.button { -fx-cursor: hand; -fx-background-radius: 9; -fx-font-weight: bold; }
+.button.primary { -fx-background-color: #6a4bc2; -fx-text-fill: white; }
+.button.primary:hover { -fx-background-color: #5836af; }
+.button.accent { -fx-background-color: #ef6d86; -fx-text-fill: white; }
+.button.ghost { -fx-background-color: #ede9fa; -fx-text-fill: #543a9c; }
+.text-field, .password-field, .text-area, .combo-box { -fx-background-radius: 8; -fx-border-color: #ddd8ee; -fx-border-radius: 8; -fx-padding: 9; }
+.table-view { -fx-background-radius: 12; -fx-border-color: #e6e2f0; -fx-border-radius: 12; }
+.table-view .column-header { -fx-background-color: #f1edfb; -fx-font-weight: bold; }
+.progress-bar > .bar { -fx-background-color: linear-gradient(to right, #6a4bc2, #ef6d86); -fx-background-radius: 8; }
+.muted { -fx-text-fill: #706b85; }.title { -fx-text-fill: #2d2352; -fx-font-size: 26px; -fx-font-weight: bold; }.section { -fx-text-fill: #382c65; -fx-font-size: 17px; -fx-font-weight: bold; }
